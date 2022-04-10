@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'VT323', monospace;
+    color: white;
+}
+
+body {
+    background-color: black;
+}
+
+.header {
+    font-size: 80px;
+    text-align: center;
+    height: 6rem;
+    
+}
+
+.game {
+    
+    padding-top:30px;
+    border: 8px solid white;
+    height: 40rem;
+    margin-left: 8em;
+    margin-right: 8em;
+    
+}
+
+.info {
+    margin-top: 30px;
+    color: rgb(173, 31, 255);
+    height: 70px;
+    font-size: 50px;
+    text-align: center;
+}
+
+.guess-info {
+    display: flex;
+    height: 23rem;
+}
+
+#lifes {
+    margin-left: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+    text-align: center;
+    height: 23rem;
+    width: 25rem;
+    white-space: wrap;
+}
+.guess {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 23rem;
+    width: 25rem;
+}
+
+.number {
+    font-size: 100px;
+    height: 150px;
+    background-color: black;
+    border: 8px solid white;
+    width: 300px;
+    text-align: center;
+}
+
+#tip {
+    height: 23rem;
+    width: 25rem;
+    margin-right: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+    text-align: center;
+    
+}
+
+.button-container {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.but {
+    background-color: black;
+    border: 8px solid rgb(255, 255, 255);
+    width: 250px;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 25px;
+    cursor: pointer;
+    font-size: 40px;
+}
+
+
+   
+
+
+
